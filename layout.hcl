@@ -1,4 +1,8 @@
 resource "layout" "simple" {
-  column "instructions" {
-  }
+    column "instructions" {
+        # schema should be changed to make these optional:
+        row "" {
+            column "" {}
+        }
+    }
 }
